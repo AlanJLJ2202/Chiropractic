@@ -17,5 +17,10 @@ namespace Chiropractic
         {
             InitializeComponent();
         }
+
+        private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

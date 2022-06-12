@@ -16,7 +16,7 @@ namespace Chiropractic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmRibbon());
+            Application.Run(new frmFluent());
         }
     }
 }
